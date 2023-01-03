@@ -1,5 +1,5 @@
 module Daemons
   module Rails
-    VERSION = '1.2.1'
+    VERSION = '0.1.0'
   end
 end
