@@ -2,7 +2,7 @@
 require File.expand_path('../lib/daemons/rails/version', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.authors       = ["ravi"]
+  gem.authors       = ["ravimariya"]
   gem.email         = []
   gem.description   = %q{daemonization support for ruby 3+}
   gem.summary       = %q{daemonization support for ruby 3+}
@@ -11,7 +11,6 @@ Gem::Specification.new do |gem|
 
   gem.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   gem.files         = `git ls-files`.split("\n")
-  gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "daemons-ruby3"
   gem.require_paths = ["lib"]
   gem.version       = Daemons::Rails::VERSION
